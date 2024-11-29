@@ -242,3 +242,11 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+add_to_apps_screen = [
+	{
+		"name": "airplane_mode",
+		"logo": "/assets/airplane_mode/airplane.png",
+		"title": "Airplane Mode",
+		"route": f"/app/airplane-mode",
+	}
+]

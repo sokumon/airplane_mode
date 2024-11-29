@@ -1,0 +1,19 @@
+<div>
+	<div class="card">
+		<a id="airline "href="/{{ doc.route|e }}">{{ (doc.title or doc.name).split("-")[0] |e }}</a>
+		<div class="path"> <span> {{doc.source_airport_code }}</span> -> <span> {{ doc.department_airport_code}}</span></div>
+	</div>
+</div>
+
+<style>
+	#airline {
+		font-size: 25px;
+	}
+	.card{
+		height: max-content;
+		width: 500px;
+		border: 2px solid black;
+		padding: 10px;
+	}
+</style>
+<!-- this is a sample default list template -->
